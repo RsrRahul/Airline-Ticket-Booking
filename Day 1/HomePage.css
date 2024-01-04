@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #050505;
+  background-color: #060606;
+}
+
+/* Home Page styles */
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://wallpapers.com/images/hd/planes-4k-ultra-hd-4c5uyn931wmnm1ov.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #060606;
+  font-size: 1.1em;
+}
+
+/* Search Section styles */
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ff33;
+  color: #161515;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Featured Flights styles */
+.featured-flights h2 {
+  font-size: 1.5em;
+  color: #f8fafa;
+  margin-bottom: 10px;
+}
+
+/* Flight Card styles */
+.flight-card {
+  border: 1px solid #0e0d0d;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.flight-card b {
+  color: #0e0d0d;
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.flight-card p {
+  color: #0c0c0c;
+  margin-bottom: 5px;
+}
+
+/* Link styles */
+.flight-card a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #100f0f;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.flight-card a:hover {
+  background-color: #0056b3;
+}

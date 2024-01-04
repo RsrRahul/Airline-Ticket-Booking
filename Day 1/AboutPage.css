@@ -1,0 +1,53 @@
+
+.about-container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #efecec;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  
+  .about-content {
+    text-align: justify;
+    color: #333;
+  }
+  
+  .about-content h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    
+  }
+  
+  .about-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  .about-content li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content li::before {
+    content: '\2022'; 
+    color: #007bff; 
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  .about-content h1:last-child {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
