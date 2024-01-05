@@ -1,0 +1,13 @@
+
+
+  [
+    {
+      "id": 1,
+      "userName": "Rahul",
+      "dob": "10-12-2004",
+      "email": "rsrahul@gmail.com",
+      "phoneNumber": "1234567890",
+      "password": "123"
+    }
+  ]
+  
